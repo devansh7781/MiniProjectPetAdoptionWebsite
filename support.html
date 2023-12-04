@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    <!--Font Aweomse & Stylesheet-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/img/heart.png" type="image/x-icon">
+    <title>Support </title>
+    <script defer src="animal.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-container container">
+            <h1 class="nav-logo" style="font-size: 1.15em;">
+                <a href="index.html">
+                    Paws for Love <i class="fas fa-heart logo-heart"></i>
+               
+                </a>
+            </h1>
+            <div id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="adopt.html">Adopt</a>
+                </li>
+                <li>
+                    <a href="support.html">Support</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Top Banner -->
+    <section class="banner banner-support">
+        <div class="container">
+            <div class="banner-info">
+                <h2 class="banner-header">
+                    Monthly Donations
+                </h2>
+                <p class="banner-text">
+                    Your monthly contribution supports homeless pets around our community.
+                </p>
+            </div>
+            <a href="https://buy.stripe.com/test_cN23g6fJI0az86sfYY">
+            <button id="donate-btn" class="btn">Donate</button>
+            </a>
+        </div>
+        
+    </section>
+    <!-- Second strip -->
+    <section class="support-section">
+        <div class="container">
+            <h2 class="section-heading text-center">
+                Pet Adoption Center is powered by our community
+            </h2>
+            <p class="section-text">
+                    We work towards 
+                sheltering and saving the lives of homeless pets. 
+                Being people powered means we need 
+                folks like you to chip in what you can. With numerious voulenteering oppourtunities, 
+                monthly contribution setup, or our foster program you can help us in our goal at 
+                finding a home for every pet.
+            </p>
+        </div>
+    </section>   
+    
+    <!-- Third strip-->
+    <section class="support-section theme-grey">
+        <div class="container">
+            <h2 class="section-heading text-center">
+                Volunteers are the heart of our program
+            </h2>
+            <div  class="split">
+                <div style=" padding-top:5rem;">
+                    <p class="section-text">
+                        Volunteers are the heart of our sucess and without their time, talents, 
+                        and resources we would not be able to save the lives of over 10,000 animals 
+                        each year. 
+                    </p>
+                </div>
+                <div>
+                    <img src="img/volunteer.bmp"  alt="">
+                </div>
+                
+            </div>
+              
+            
+        </div>
+    </section>
+        
+    <!-- Last Strip -->
+    <section class="support-section theme-blue">
+        <div class="container">
+            <h2 class="section-heading text-center">
+                Your Donations go a long way
+            </h2>
+            <div class="split">
+                <div>
+                    <img src="img/adopt-vet.jpg" alt="">
+                </div>
+                <div style=" padding-top:5rem;">
+                    <p class="section-text">
+                        Pets in our care sometimes require extra attention and your support provides life changing care.
+                    </p>
+                    <ul class="list-supplies">
+                        <li>
+                            General pet supplies
+                        </li>
+                        <li>
+                            Emergency medical care
+                        </li>
+                        <li>World class adoption centers</li>
+                        <li>
+                            Community events
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id="sign-up" class="theme-dark-blue">
+        <div class="container split">
+            <!-- Card -->
+            <div class="card">
+                <h2 class="section-heading">
+                    Reach out with how you would like to help
+                </h2>
+               <div class="formContainer">
+                <form action="reach_out.php" method="post">
+                    <div class="form-control">
+                        <label for="foster">Name</label>
+                        <input type="text" name="name" placeholder="name" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="foster">Email</label>
+                        <input type="text" name="email" placeholder="email" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="foster">Phone</label>
+                        <input type="number" name="phone" placeholder="phone number" required>
+                    </div>
+                <br>
+
+                
+                    <div class="form-control ">
+                        <label for="foster">Role</label>
+                        <select name="role">
+                            <option  align="center">-------Select--------</option>
+                            <option value="foster">Foster</option>
+                            <option value="volunteer">Volunteer</option>
+                        </select>
+                        
+                       
+                    </div>
+                <br>
+                    
+                    
+
+                    <button type="submit" value="Send" class="btn btn-alt my-2">
+                        Submit
+                    </button>
+                    <button type="reset" class="btn btn-primary my-2">
+                        Reset
+                    </button>
+                </form>
+               </div> 
+               
+            </div>
+            <div style="margin-left: 8rem;">
+                <img src="img/adopt-thankyou.jpg" alt="dog with thank you sheet" height="400rem" >
+            </div>                
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="theme-grey support-footer">
+        <div class="footer-donate text-center">
+            <h2>
+                Your support means the world to our organization and our pets.
+            </h2>
+        
+        </div>
+        <div class="footer-media">
+            <div class="company-logo">
+                <i class="fas fa-paw"></i>
+                Pet Adoption Center
+            </div>
+            <div class="media-tray">
+                <a href="#0" class="media-tray-items">
+                    <i class="fab fa-twitter-square fa-2x" ></i>
+                </a>
+                <a href="#0" class="media-tray-items">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                </a>
+                <a href="#0" class="media-tray-items">
+                    <i class="fab fa-instagram-square fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <p class="text-center">
+            2023-2024 Copyright Pet Adoption, Inc. All rights NOT reserved.
+        </p>
+    </footer>
+</body>
+</html>
